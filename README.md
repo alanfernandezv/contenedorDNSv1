@@ -12,7 +12,7 @@ Descripciones de las opciones del docker-compose.yml:
 
    
    
-   - version:Colocamos la version de docker-compose que necesitemos
+  - version:Colocamos la version de docker-compose que necesitemos
     - services: Aqui meteremos todas las opciones
       - nombre: Aqui ponemos el nombre
       - image: Aqui ponemos la imagen que vamos a usar
