@@ -1,0 +1,16 @@
+version: '2'
+services:
+  dnsasir_bind:
+    image: internetsystemsconsortium/bind9:9.11
+    ports:
+    - 53:53
+    volumes:
+     - DNS:/etc/bind
+     - Cachebind:/var/cache/bind
+     - LibB:/var/lib/bind 
+     - LogB:/var/log
+volumes:
+    DNS:
+    Cachebind:
+    LibB:
+    LogB:
